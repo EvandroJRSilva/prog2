@@ -50,7 +50,7 @@ public class Principal {
 			String insertSQL = "INSERT INTO Pessoa VALUES (?,?,?,?,?,?)";
 			
 			// Preparando SQL para executar
-			PreparedStatement ps = conn.prepareStatement(insertSQL);
+			//PreparedStatement ps = conn.prepareStatement(insertSQL);
 			//ps.setString(1, "123.456.789-00"); ps.setString(2, "Fulano");
 			//ps.setString(3, null); ps.setString(4, "Silva");
 			//ps.setInt(5, 21); ps.setFloat(6, (float) 77.8);
